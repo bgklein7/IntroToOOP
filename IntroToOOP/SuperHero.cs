@@ -13,7 +13,25 @@ namespace IntroToOOP
         private string weaponChoice;
         private string superPower;
 
+        public bool XRayVision
+        {
+            get { return this.xRayVision; }
+            set { this.xRayVision = value; }
+        }
+
+        public bool Spandex
+        {
+            get { return this.spandex; }
+            set { this.spandex = value; }
+        }
+
         public string WeaponChoice
+        {
+            get { return this.weaponChoice; }
+            set { this.weaponChoice = value; }
+        }
+
+        public string SuperPower
         {
             get { return this.superPower; }
             set { this.superPower = value; }

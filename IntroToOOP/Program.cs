@@ -34,6 +34,12 @@ namespace IntroToOOP
             secondDog.Cuddle();
 
             firstDog.Bark();
+
+            SuperHero firstHero = new SuperHero(true, false, "gun", "telepathy");
+            SuperHero secondHero = new SuperHero(false, true, "hands", "speed");
+
+            firstHero.PowerBoost();
+            secondHero.StrengthLevel();
         }
     }
 }
